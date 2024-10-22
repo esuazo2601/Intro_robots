@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000659] (servo_controller) JobQueued: {'identifier': 'servo_controller', 'dependencies': OrderedDict()}
+[0.001172] (servo_controller) JobStarted: {'identifier': 'servo_controller'}
+[0.099357] (-) TimerEvent: {}
+[0.199719] (-) TimerEvent: {}
+[0.300022] (-) TimerEvent: {}
+[0.400316] (-) TimerEvent: {}
+[0.500678] (-) TimerEvent: {}
+[0.601089] (-) TimerEvent: {}
+[0.701576] (-) TimerEvent: {}
+[0.802083] (-) TimerEvent: {}
+[0.882009] (servo_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/servo_controller', 'build', '--build-base', '/home/dido/servo_controller/build/servo_controller/build', 'install', '--record', '/home/dido/servo_controller/build/servo_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dido/servo_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dido', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dido', 'OLDPWD': '/home/dido/servo_controller/servo_controller', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dido/turtlebot_servo/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dido', 'NAME': 'DESKTOP-81V1HBB', 'WSL_INTEROP': '/run/WSL/25102_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dido/turtlebot_servo/install/turtlebot_servo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.3.24.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Process Lasso/:/mnt/c/Users/Esteban/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Esteban/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Esteban/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Esteban/AppData/Local/UniGetUI/Chocolatey/bin:/mnt/c/Users/Esteban/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Esteban/.dotnet/tools:/mnt/c/Users/Esteban/AppData/Local/Microsoft/WinGet/Links:/mnt/c/Users/Esteban/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': '192.168.48.1:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dido/turtlebot_servo/install/turtlebot_servo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/dido/servo_controller/build/servo_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dido/servo_controller/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages:/home/dido/turtlebot_servo/install/turtlebot_servo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.902208] (-) TimerEvent: {}
+[1.002466] (-) TimerEvent: {}
+[1.102793] (-) TimerEvent: {}
+[1.130483] (servo_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.131054] (servo_controller) StdoutLine: {'line': b'creating build/servo_controller/servo_controller.egg-info\n'}
+[1.131419] (servo_controller) StdoutLine: {'line': b'writing build/servo_controller/servo_controller.egg-info/PKG-INFO\n'}
+[1.131637] (servo_controller) StdoutLine: {'line': b'writing dependency_links to build/servo_controller/servo_controller.egg-info/dependency_links.txt\n'}
+[1.131817] (servo_controller) StdoutLine: {'line': b'writing entry points to build/servo_controller/servo_controller.egg-info/entry_points.txt\n'}
+[1.132170] (servo_controller) StdoutLine: {'line': b'writing requirements to build/servo_controller/servo_controller.egg-info/requires.txt\n'}
+[1.132315] (servo_controller) StdoutLine: {'line': b'writing top-level names to build/servo_controller/servo_controller.egg-info/top_level.txt\n'}
+[1.132635] (servo_controller) StdoutLine: {'line': b"writing manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[1.134492] (servo_controller) StdoutLine: {'line': b"reading manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[1.134818] (servo_controller) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.135259] (servo_controller) StdoutLine: {'line': b"writing manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[1.135550] (servo_controller) StdoutLine: {'line': b'running build\n'}
+[1.135766] (servo_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.136077] (servo_controller) StdoutLine: {'line': b'creating /home/dido/servo_controller/build/servo_controller/build\n'}
+[1.136232] (servo_controller) StdoutLine: {'line': b'creating /home/dido/servo_controller/build/servo_controller/build/lib\n'}
+[1.136366] (servo_controller) StdoutLine: {'line': b'creating /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller\n'}
+[1.136582] (servo_controller) StdoutLine: {'line': b'copying servo_controller/__init__.py -> /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller\n'}
+[1.136761] (servo_controller) StdoutLine: {'line': b'copying servo_controller/turtlebot_servo.py -> /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller\n'}
+[1.137097] (servo_controller) StdoutLine: {'line': b'running install\n'}
+[1.137445] (servo_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.138285] (servo_controller) StdoutLine: {'line': b'creating /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller\n'}
+[1.138497] (servo_controller) StdoutLine: {'line': b'copying /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller/__init__.py -> /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller\n'}
+[1.138784] (servo_controller) StdoutLine: {'line': b'copying /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller/turtlebot_servo.py -> /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller\n'}
+[1.139202] (servo_controller) StdoutLine: {'line': b'byte-compiling /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[1.139548] (servo_controller) StdoutLine: {'line': b'byte-compiling /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller/turtlebot_servo.py to turtlebot_servo.cpython-310.pyc\n'}
+[1.140044] (servo_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.140485] (servo_controller) StdoutLine: {'line': b'creating /home/dido/servo_controller/install/servo_controller/share/ament_index\n'}
+[1.140702] (servo_controller) StdoutLine: {'line': b'creating /home/dido/servo_controller/install/servo_controller/share/ament_index/resource_index\n'}
+[1.140877] (servo_controller) StdoutLine: {'line': b'creating /home/dido/servo_controller/install/servo_controller/share/ament_index/resource_index/packages\n'}
+[1.141152] (servo_controller) StdoutLine: {'line': b'copying resource/servo_controller -> /home/dido/servo_controller/install/servo_controller/share/ament_index/resource_index/packages\n'}
+[1.141575] (servo_controller) StdoutLine: {'line': b'copying package.xml -> /home/dido/servo_controller/install/servo_controller/share/servo_controller\n'}
+[1.141916] (servo_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.143510] (servo_controller) StdoutLine: {'line': b'Copying build/servo_controller/servo_controller.egg-info to /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller-0.0.0-py3.10.egg-info\n'}
+[1.144584] (servo_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.164730] (servo_controller) StdoutLine: {'line': b"writing list of installed files to '/home/dido/servo_controller/build/servo_controller/install.log'\n"}
+[1.186912] (servo_controller) CommandEnded: {'returncode': 0}
+[1.203200] (-) TimerEvent: {}
+[1.205776] (servo_controller) JobEnded: {'identifier': 'servo_controller', 'rc': 0}
+[1.207078] (-) EventReactorShutdown: {}

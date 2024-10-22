@@ -1,0 +1,37 @@
+[0.882s] Invoking command in '/home/dido/servo_controller': PYTHONPATH=/home/dido/servo_controller/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/servo_controller build --build-base /home/dido/servo_controller/build/servo_controller/build install --record /home/dido/servo_controller/build/servo_controller/install.log --single-version-externally-managed install_data
+[1.129s] running egg_info
+[1.130s] creating build/servo_controller/servo_controller.egg-info
+[1.130s] writing build/servo_controller/servo_controller.egg-info/PKG-INFO
+[1.130s] writing dependency_links to build/servo_controller/servo_controller.egg-info/dependency_links.txt
+[1.131s] writing entry points to build/servo_controller/servo_controller.egg-info/entry_points.txt
+[1.131s] writing requirements to build/servo_controller/servo_controller.egg-info/requires.txt
+[1.131s] writing top-level names to build/servo_controller/servo_controller.egg-info/top_level.txt
+[1.131s] writing manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[1.133s] reading manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[1.134s] adding license file 'LICENSE'
+[1.134s] writing manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[1.134s] running build
+[1.135s] running build_py
+[1.135s] creating /home/dido/servo_controller/build/servo_controller/build
+[1.135s] creating /home/dido/servo_controller/build/servo_controller/build/lib
+[1.135s] creating /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller
+[1.135s] copying servo_controller/__init__.py -> /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller
+[1.136s] copying servo_controller/turtlebot_servo.py -> /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller
+[1.136s] running install
+[1.136s] running install_lib
+[1.137s] creating /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller
+[1.137s] copying /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller/__init__.py -> /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller
+[1.138s] copying /home/dido/servo_controller/build/servo_controller/build/lib/servo_controller/turtlebot_servo.py -> /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller
+[1.138s] byte-compiling /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller/__init__.py to __init__.cpython-310.pyc
+[1.138s] byte-compiling /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller/turtlebot_servo.py to turtlebot_servo.cpython-310.pyc
+[1.139s] running install_data
+[1.139s] creating /home/dido/servo_controller/install/servo_controller/share/ament_index
+[1.140s] creating /home/dido/servo_controller/install/servo_controller/share/ament_index/resource_index
+[1.140s] creating /home/dido/servo_controller/install/servo_controller/share/ament_index/resource_index/packages
+[1.140s] copying resource/servo_controller -> /home/dido/servo_controller/install/servo_controller/share/ament_index/resource_index/packages
+[1.140s] copying package.xml -> /home/dido/servo_controller/install/servo_controller/share/servo_controller
+[1.141s] running install_egg_info
+[1.142s] Copying build/servo_controller/servo_controller.egg-info to /home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages/servo_controller-0.0.0-py3.10.egg-info
+[1.143s] running install_scripts
+[1.164s] writing list of installed files to '/home/dido/servo_controller/build/servo_controller/install.log'
+[1.186s] Invoked command in '/home/dido/servo_controller' returned '0': PYTHONPATH=/home/dido/servo_controller/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dido/servo_controller/install/servo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/servo_controller build --build-base /home/dido/servo_controller/build/servo_controller/build install --record /home/dido/servo_controller/build/servo_controller/install.log --single-version-externally-managed install_data
