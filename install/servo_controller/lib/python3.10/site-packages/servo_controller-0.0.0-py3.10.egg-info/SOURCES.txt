@@ -11,6 +11,7 @@ build/servo_controller/servo_controller.egg-info/requires.txt
 build/servo_controller/servo_controller.egg-info/top_level.txt
 build/servo_controller/servo_controller.egg-info/zip-safe
 launch/servo_controller_gazebo.launch.py
+launch/view_robot.launch.py
 resource/servo_controller
 servo_controller/__init__.py
 servo_controller/servo_controller.py

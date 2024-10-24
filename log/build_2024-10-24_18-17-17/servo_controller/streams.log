@@ -1,0 +1,25 @@
+[0.981s] Invoking command in '/home/esteban/Intro_robots': PYTHONPATH=/home/esteban/Intro_robots/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/servo_controller build --build-base /home/esteban/Intro_robots/build/servo_controller/build install --record /home/esteban/Intro_robots/build/servo_controller/install.log --single-version-externally-managed install_data
+[1.359s] running egg_info
+[1.360s] writing build/servo_controller/servo_controller.egg-info/PKG-INFO
+[1.361s] writing dependency_links to build/servo_controller/servo_controller.egg-info/dependency_links.txt
+[1.361s] writing entry points to build/servo_controller/servo_controller.egg-info/entry_points.txt
+[1.362s] writing requirements to build/servo_controller/servo_controller.egg-info/requires.txt
+[1.363s] writing top-level names to build/servo_controller/servo_controller.egg-info/top_level.txt
+[1.365s] reading manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[1.365s] adding license file 'LICENSE'
+[1.366s] writing manifest file 'build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[1.367s] running build
+[1.367s] running build_py
+[1.367s] copying servo_controller/servo_controller.py -> /home/esteban/Intro_robots/build/servo_controller/build/lib/servo_controller
+[1.367s] running install
+[1.368s] running install_lib
+[1.369s] copying /home/esteban/Intro_robots/build/servo_controller/build/lib/servo_controller/servo_controller.py -> /home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages/servo_controller
+[1.370s] byte-compiling /home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages/servo_controller/servo_controller.py to servo_controller.cpython-310.pyc
+[1.371s] running install_data
+[1.372s] running install_egg_info
+[1.375s] removing '/home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages/servo_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.376s] Copying build/servo_controller/servo_controller.egg-info to /home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages/servo_controller-0.0.0-py3.10.egg-info
+[1.377s] running install_scripts
+[1.405s] Installing servo_controller script to /home/esteban/Intro_robots/install/servo_controller/lib/servo_controller
+[1.405s] writing list of installed files to '/home/esteban/Intro_robots/build/servo_controller/install.log'
+[1.436s] Invoked command in '/home/esteban/Intro_robots' returned '0': PYTHONPATH=/home/esteban/Intro_robots/build/servo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/servo_controller build --build-base /home/esteban/Intro_robots/build/servo_controller/build install --record /home/esteban/Intro_robots/build/servo_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+Invoking command in '/home/esteban/Intro_robots/build/servo_controller': CMAKE_PREFIX_PATH=/home/esteban/Intro_robots/install/servo_controller:/opt/ros/humble /usr/bin/cmake /home/esteban/Intro_robots -DCMAKE_INSTALL_PREFIX=/home/esteban/Intro_robots/install/servo_controller
+Invoked command in '/home/esteban/Intro_robots/build/servo_controller' returned '1': CMAKE_PREFIX_PATH=/home/esteban/Intro_robots/install/servo_controller:/opt/ros/humble /usr/bin/cmake /home/esteban/Intro_robots -DCMAKE_INSTALL_PREFIX=/home/esteban/Intro_robots/install/servo_controller

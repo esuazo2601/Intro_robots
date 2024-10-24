@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="servo_controller" type="servo_controller.py" name="servo_controller" output="screen"/>
+    <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+</launch>

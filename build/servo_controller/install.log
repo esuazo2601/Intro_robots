@@ -5,6 +5,7 @@
 /home/esteban/Intro_robots/install/servo_controller/share/ament_index/resource_index/packages/servo_controller
 /home/esteban/Intro_robots/install/servo_controller/share/servo_controller/package.xml
 /home/esteban/Intro_robots/install/servo_controller/share/servo_controller/launch/servo_controller_gazebo.launch.py
+/home/esteban/Intro_robots/install/servo_controller/share/servo_controller/launch/view_robot.launch.py
 /home/esteban/Intro_robots/install/servo_controller/share/servo_controller/urdf/my_turtlebot3_burger.urdf
 /home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages/servo_controller-0.0.0-py3.10.egg-info/requires.txt
 /home/esteban/Intro_robots/install/servo_controller/lib/python3.10/site-packages/servo_controller-0.0.0-py3.10.egg-info/dependency_links.txt

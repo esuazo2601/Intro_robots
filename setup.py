@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
+
 package_name = 'servo_controller'
 
 setup(
@@ -13,7 +14,6 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.py'))),
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*.urdf')),
-
     ],
     install_requires=['setuptools'],
     zip_safe=True,
